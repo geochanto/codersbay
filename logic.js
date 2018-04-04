@@ -2,6 +2,15 @@
 // Make sure to match the configuration to the script version number in the HTML
 // (Ex. 3.0 != 3.7.0)
 
+var config = {
+  apiKey: "AIzaSyAJS4YQWU5DmESeYueG1qH1NGkjv3DncEY",
+  authDomain: "fir-click-counter-7cdb9.firebaseapp.com",
+  databaseURL: "https://fir-click-counter-7cdb9.firebaseio.com",
+  storageBucket: "fir-click-counter-7cdb9.appspot.com"
+};
+
+
+firebase.initializeApp(config);
 
 // Assign the reference to the database to a variable named 'database'
 //var database = ...
